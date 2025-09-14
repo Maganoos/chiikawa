@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "chiikawa",
+	"version": "${version}",
+	"name": "Emotional Support Chiikawa",
+	"description": "puts a chiikawa on your screen",
+	"authors": [
+		"Maganoos"
+	],
+	"contact": {
+		"issues": "https://github.com/Maganoos/chiikawa/issues",
+		"sources": "https://github.com/Maganoos/chiikawa"
+	},
+	"license": "MIT",
+	"icon": "assets/chiikawa/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"eu.magkari.mc.chiikawa.EmotionalSupportChiikawa"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
